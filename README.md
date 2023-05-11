@@ -53,6 +53,9 @@ Recibe como parametros:
 ##void prender_led
 + **luz** (el led/pin), de tipo entenro, que va a encender junto a la buzzer.
 + **hz** es el segundo parametro que recibe la funcion **tone** dentro de `SonarBuzzer` que es la frecuencia del tono en Hz.
++ **int leds[]** = {led_rojo, led_naranja, led_azul, led_verde}; son los leds a prender
++ **int numeros[]** = {3, 2, 1, 0}; los casos del display 7 segmentos que tiene que prender
++ **int p = digitalRead(pulsador)** el pulsador que al apretarlo baja la bandera y empieza el bulce
 
 ---
 ## <img src="assets/img/tinkercad-logo.png" alt="Tinkercad" height="32px"> Link al proyecto
