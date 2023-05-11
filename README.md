@@ -64,5 +64,5 @@ Recibe como parametros:
 
 ### Trabajo Practico:
 
-[Consignas](https://github.com/magikboy/Dojo-2/blob/cca441441a00a2a0f9416edff2533954e781164f/Ejercicio%20Estacion%20de%20subte.pdf)
+[Consignas](https://www.tinkercad.com/things/fp6nTkKsQXA)
 
