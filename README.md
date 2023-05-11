@@ -4,40 +4,44 @@
 Sistema de Procesamiento de Datos (SPD)
 Ejercicio Estacion de subte
 
-![Tinkercad](/assets/img/ArduinoTinkercad.jpg)
-
-
-## Integrantes
-
-* [Bosco Mascaro Massimo Ariel](https://github.com/magikboy)
-* [Garcia Dottori Martin](#)
-* [Gargiulo Mundo Camila](#)
-* [Hruszczak Nicolas Gabriel](https://github.com/Nicolasgh91)
-* [Hermosilla Sebastián Emanuel](https://github.com/EM40a)
-
 
 ## Proyecto: Semáforos para no videntes.
 
 ![Semáforos para no videntes](/assets/img/Sem%C3%A1foros%20para%20no%20videntes.png)
 
-## Descripción
+##Consigna SUBTE:
+La empresa  “UTN FRA Robotics” ganó la licitación de un proyecto, y deberá Implementar un sistema que permita al usuario saber a qué estación de subte está llegando, aparte  el sistema muestra las estaciones que faltan hasta llegar a destino, para ello debemos utilizar 4 LEDs y el display de 7 segmentos. Esta vez el buzzer deberá emitir un sonido diferente cada vez que se llegue a una estación.
+El sistema deberá arrancar apagado, luego de presionar el botón empezará y hará lo pedido.
 
-El gobierno de la cuidad quiere actualizar los semáforos que tienen instalados. Por lo cual estos mismos tienen que tener señalización para personas no videntes
-nuestra solucion al problema es implementar una serie de bocinas sonaran durante el funcionamiento del semaforo.
-
-Cuando se pare en la luz roja emitira un sonido continuo adviertiendole al peaton detenerse y no cruzar. En el cambio de semaforo, en la luz amarilla, emitira un sonido discontinuo avisando sobre el cambio de luz hacia el verde.
 
 
 ## Función principal
 
 ``` C++
-void PrenderSemaforo(int luz, int tiempo, int frecuencia, int entretiempo)
+void prender_led(int led, int hz)
 {
-  for (int i = 0 ; i < tiempo; i++) 
-  {
-    SonarBuzzer(luz, frecuencia, entretiempo);
-    digitalWrite(luz, LOW);
-  } 
+  int duracion = 200; // Duración en milisegundos del tono y el LED encendido
+  int espera = 2000; // Tiempo de espera después de apagar el LED
+  digitalWrite(led, HIGH);
+  tone(buzzer, hz, duracion);
+  delay(duracion);
+  digitalWrite(led, LOW);
+  delay(espera);
+}
+
+void loop()
+{
+  int p = digitalRead(pulsador);
+if (p == 0 || flag) {
+  flag = true;
+  int leds[] = {led_rojo, led_naranja, led_azul, led_verde};
+  int numeros[] = {3, 2, 1, 0};
+  for (int i = 0; i < 4; i++) {
+    display_off();
+    display(numeros[i]);
+    prender_led(leds[i], 500);
+  }
+}
 }
 ```
 
@@ -46,11 +50,9 @@ void PrenderSemaforo(int luz, int tiempo, int frecuencia, int entretiempo)
 Enciende y apaga el buzzer junto al led correspondiente durante el tiempo indicado.
 
 Recibe como parametros:
-
+##void prender_led
 + **luz** (el led/pin), de tipo entenro, que va a encender junto a la buzzer.
-+ **tiempo** que durará la luz encendida. Dentro del for, lo que hace es ir iterando llamando a la funcion `SonarBuzzer` que enciende el led y la bocina a la vez.
-+ **frecuencia** es el segundo parametro que recibe la funcion **tone** dentro de `SonarBuzzer` que es la frecuencia del tono en Hz.
-+ **entreTiempo** es el tiempo entre cada sonido del buzzer en milisegundos.
++ **hz** es el segundo parametro que recibe la funcion **tone** dentro de `SonarBuzzer` que es la frecuencia del tono en Hz.
 
 ---
 ## <img src="assets/img/tinkercad-logo.png" alt="Tinkercad" height="32px"> Link al proyecto
