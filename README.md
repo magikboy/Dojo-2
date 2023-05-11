@@ -66,8 +66,3 @@ Recibe como parametros:
 
 [Consignas](https://github.com/magikboy/Dojo-N-mero-Uno/blob/18c1342eff3a6e0bedfadace646459866021de35/Dojo%20Numero%20Uno.pdf)
 
-### Fuentes
-
-- [Chat-GPT](https://chat.openai.com/)
-- Youtube
-- [Vladimir Guajardo Gonzalez](https://www.youtube.com/@SethPonder5/videos)
