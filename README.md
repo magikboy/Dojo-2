@@ -64,5 +64,5 @@ Recibe como parametros:
 
 ### Trabajo Practico:
 
-[Consignas](https://github.com/magikboy/Dojo-N-mero-Uno/blob/18c1342eff3a6e0bedfadace646459866021de35/Dojo%20Numero%20Uno.pdf)
+[Consignas](Ejercicio Estacion de subte.pdf)
 
