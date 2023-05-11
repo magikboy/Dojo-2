@@ -13,6 +13,14 @@ Ejercicio Estacion de subte
 La empresa  “UTN FRA Robotics” ganó la licitación de un proyecto, y deberá Implementar un sistema que permita al usuario saber a qué estación de subte está llegando, aparte  el sistema muestra las estaciones que faltan hasta llegar a destino, para ello debemos utilizar 4 LEDs y el display de 7 segmentos. Esta vez el buzzer deberá emitir un sonido diferente cada vez que se llegue a una estación.
 El sistema deberá arrancar apagado, luego de presionar el botón empezará y hará lo pedido.
 
+## Integrantes
+
+* [Bosco Mascaro Massimo Ariel](https://github.com/magikboy)
+* [Garcia Dottori Martin](#)
+* [Gargiulo Mundo Camila](#)
+* [Hruszczak Nicolas Gabriel](https://github.com/Nicolasgh91)
+* [Hermosilla Sebastián Emanuel](https://github.com/EM40a)
+
 
 
 ## Función principal
