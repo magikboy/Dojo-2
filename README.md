@@ -60,7 +60,7 @@ Recibe como parametros:
 ---
 ## <img src="assets/img/tinkercad-logo.png" alt="Tinkercad" height="32px"> Link al proyecto
 
-- [Proyecto](https://www.tinkercad.com/things/0eFa38BwfAQ-super-migelo-jofo/editel?sharecode=rXB4PgoPveKdescEf7ZKr18V5jzex0wzRh-1nmglAt4)
+- [Proyecto](https://github.com/magikboy/Dojo-1/blob/main/assets/img/tinkercad-logo.png)
 
 ### Trabajo Practico:
 
