@@ -7,7 +7,7 @@ Ejercicio Estacion de subte
 
 ## Proyecto: Semáforos para no videntes.
 
-![Semáforos para no videntes](/assets/img/Sem%C3%A1foros%20para%20no%20videntes.png)
+![Semáforos para no videntes](https://github.com/magikboy/Dojo-2/blob/main/arduino.png)
 
 ##Consigna SUBTE:
 La empresa  “UTN FRA Robotics” ganó la licitación de un proyecto, y deberá Implementar un sistema que permita al usuario saber a qué estación de subte está llegando, aparte  el sistema muestra las estaciones que faltan hasta llegar a destino, para ello debemos utilizar 4 LEDs y el display de 7 segmentos. Esta vez el buzzer deberá emitir un sonido diferente cada vez que se llegue a una estación.
