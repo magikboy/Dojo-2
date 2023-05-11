@@ -5,7 +5,7 @@ Sistema de Procesamiento de Datos (SPD)
 Ejercicio Estacion de subte
 
 
-## Proyecto: Semáforos para no videntes.
+## Proyecto:Estacion de subte.
 
 ![Semáforos para no videntes](https://github.com/magikboy/Dojo-2/blob/main/arduino.png)
 
