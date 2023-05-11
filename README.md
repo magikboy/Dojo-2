@@ -58,7 +58,7 @@ Recibe como parametros:
 + **int p = digitalRead(pulsador)** el pulsador que al apretarlo baja la bandera y empieza el bulce
 
 ---
-## <img src="assets/img/tinkercad-logo.png" alt="Tinkercad" height="32px"> Link al proyecto
+## <img src="tinkercad.png" alt="Tinkercad" height="32px"> Link al proyecto
 
 - [Proyecto](https://github.com/magikboy/Dojo-1/blob/main/assets/img/tinkercad-logo.png)
 
